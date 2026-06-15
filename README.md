@@ -42,3 +42,5 @@ El proyecto consiste en el desarrollo de la portada de un diario digital fictici
 - https://www.santafe.gob.ar/noticias/noticia/286342/
 
 ## GitHub Pages
+
+https://carlosgustavoperez.github.io/DAW-FLEXBOX/
