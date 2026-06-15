@@ -8,30 +8,70 @@
 
 - **Comisión:**  4°-A
 
+# NEXO Digital
+
+Trabajo práctico desarrollado para la materia **Desarrollo y Arquitecturas Web (DAW)**.
+
 ## Descripción
 
-Trabajo Práctico N.º 1 de la asignatura Desarrollo de Aplicaciones Web.
+NEXO Digital es un portal de noticias responsive desarrollado utilizando HTML, CSS y JavaScript.
 
-El proyecto consiste en el desarrollo de la portada de un diario digital ficticio llamado **NEXO Digital**, aplicando HTML5, CSS3, Flexbox y Responsive Design con enfoque Mobile First.
+El proyecto fue construido siguiendo la metodología **Mobile First** e incorpora técnicas de maquetación con **Flexbox** y **CSS Grid**, permitiendo una correcta visualización en dispositivos móviles, tablets y computadoras de escritorio.
+
+## Funcionalidades
+
+### Página principal (index.html)
+
+* Cabecera institucional.
+* Navegación principal.
+* Noticia destacada.
+* Noticias secundarias.
+* Espacio publicitario.
+* Diseño responsive.
+* Pie de página institucional.
+
+
+### Página de suscripción (subscription.html)
+
+Formulario de suscripción para lectores con los siguientes campos:
+
+* Nombre completo
+* Email
+* Contraseña
+* Repetir contraseña
+* Edad
+* Teléfono
+* Dirección
+* Ciudad
+* Código Postal
+* DNI
+
+## Validaciones implementadas
+
+Las validaciones fueron desarrolladas con JavaScript utilizando manipulación del DOM.
+
+* Validación mediante evento `blur`.
+* Limpieza de errores mediante evento `focus`.
+* Validación general al enviar el formulario.
+* Mensajes de error descriptivos debajo de cada campo.
+* Confirmación visual de suscripción exitosa.
+* Redirección automática a la página principal.
+
+## Bonus implementado
+
+Título dinámico que actualiza el mensaje:
+
+HOLA NOMBRE_APELLIDO
+
+a medida que el usuario escribe su nombre completo.
 
 ## Tecnologías utilizadas
 
-- HTML5
-- CSS3
-- Flexbox
-- Git
-- GitHub
-- GitHub Pages
-
-## Características
-
-- Diseño responsive
-- Menú hamburguesa en dispositivos móviles
-- Navegación horizontal en escritorio
-- Noticia principal destacada
-- Noticias secundarias
-- Espacio publicitario
-- Layout desarrollado con Flexbox
+* HTML5
+* CSS3
+* Flexbox
+* CSS Grid
+* JavaScript (DOM)
 
 ## Noticias utilizadas
 
@@ -41,6 +81,13 @@ El proyecto consiste en el desarrollo de la portada de un diario digital fictici
 - https://www.lanacion.com.ar/estados-unidos/buenas-noticias-para-argentinos-en-kansas-city-guia-de-servicios-gratuitos-para-hacer-en-el-mundial-nid15062026/
 - https://www.santafe.gob.ar/noticias/noticia/286342/
 
+
 ## GitHub Pages
 
+Página principal:
+
 https://carlosgustavoperez.github.io/DAW-FLEXBOX/
+
+Formulario de suscripción:
+
+https://carlosgustavoperez.github.io/DAW-FLEXBOX/subscription.html
