@@ -6,7 +6,7 @@
 
 - **Alumno:** Gustavo Pérez
 
-- **Comisión:** [Tu comisión]
+- **Comisión:**  4°-A
 
 ## Descripción
 
